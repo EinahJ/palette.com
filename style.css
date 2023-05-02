@@ -1,0 +1,84 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 1000;
+    margin: 20px 30px;
+}
+.maroon div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.yellow div{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.others div{
+    width: 200px;
+    height: 200px;
+    margin: 20px
+}
+
+.maroon div:first-child {
+    background-color: #800000;
+}
+.maroon div:nth-child(2) {
+    background-color: #6B2C1D;
+}
+.maroon div:nth-child(3) {
+    background-color: #AC1E44;
+}
+.maroon div:nth-child(4) {
+    background-color: #461B15;
+}
+.maroon div:nth-child(5) {
+    background-color: #B03060;
+}
+
+.yellow div:first-child {
+    background-color: #FFD700;
+}
+.yellow div:nth-child(2) {
+    background-color: #F9A602;
+}
+.yellow div:nth-child(3) {
+    background-color: #FFC300;
+}
+.yellow div:nth-child(4) {
+    background-color: #F7B500;
+}
+.yellow div:nth-child(5) {
+    background-color: #FFDF00;
+}
+
+.others div:first-child {
+    background-color: #FFFFF0;
+}
+.others div:nth-child(2) {
+    background-color: #808000;
+}
+.others div:nth-child(3) {
+    background-color: #000080;
+}
+.others div:nth-child(4) {
+    background-color: #8B3A3A;
+}
+.others div:last-child {
+    background-color: #4B0082;
+}
+
+footer {
+    margin: 20px;
+}
