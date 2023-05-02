@@ -17,18 +17,20 @@ header{
     width: 200px;
     height: 200px;
     margin: 20px;
+    border-radius: 50%;
 }
 
 .yellow div{
     width: 200px;
     height: 200px;
     margin: 20px;
-}
+    border-radius: 50%;}
 
 .others div{
     width: 200px;
     height: 200px;
     margin: 20px
+    border-radius: 50%;
 }
 
 .maroon div:first-child {
